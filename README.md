@@ -22,7 +22,7 @@ Reporting and Analytics: Generate reports and gain insights into event performan
 
 Event Planner employs a robust architecture integrating both front-end and back-end technologies to deliver a seamless user experience:
 
-Front-End: Html, CSS for a rich and interactive user interface.
+Front-End: Html, CSS, JS for a rich and interactive user interface.
 
 Back-End: Java for server-side logic and operations.
 
