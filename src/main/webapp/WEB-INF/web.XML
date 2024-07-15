@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+     <servlet>
+        <servlet-name>loginServlet</servlet-name>
+        <servlet-class>com.reguser.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    <servlet>
+        <servlet-name>customerInsertServlet</servlet-name>
+        <servlet-class>com.reguser.Registration</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>customerInsertServlet</servlet-name>
+        <url-pattern>/Registration</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    <servlet>
+        <servlet-name>customerUpdate</servlet-name>
+        <servlet-class>com.reguser.UpdateCustomerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>customerUpdate</servlet-name>
+        <url-pattern>/UpdateCustomerServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>customerDelete</servlet-name>
+        <servlet-class>com.reguser.DeleteCustomerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>customerDelete</servlet-name>
+        <url-pattern>/DeleteCustomerServlet</url-pattern>
+    </servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>feedback</servlet-name>
+		<servlet-class>com.feedback.feddbackServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>feedback</servlet-name>
+		<url-pattern>/feddbackServlet</url-pattern>
+	</servlet-mapping>
+
+
+	
+	 <servlet>
+        <servlet-name>login</servlet-name>
+        <servlet-class>com.Eventplanner.EloginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>login</servlet-name>
+        <url-pattern>/EloginServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    <servlet>
+        <servlet-name>Event</servlet-name>
+        <servlet-class>com.Eventplanner.EregistrationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Event</servlet-name>
+        <url-pattern>/EregistrationServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+     <servlet>
+        <servlet-name>Eventupdate</servlet-name>
+        <servlet-class>com.Eventplanner.EupdateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Eventupdate</servlet-name>
+        <url-pattern>/EupdateServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+       <servlet>
+        <servlet-name>Eventdelete</servlet-name>
+        <servlet-class>com.Eventplanner.DeleteEventplanner</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Eventdelete</servlet-name>
+        <url-pattern>/DeleteEventplanner</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    <servlet>
+        <servlet-name>insert card</servlet-name>
+        <servlet-class>com.pay.Payment</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>insert card</servlet-name>
+        <url-pattern>/Payment</url-pattern>
+    </servlet-mapping>
+
+
+<servlet>
+        <servlet-name>update card</servlet-name>
+        <servlet-class>com.payment.Upay</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>update card</servlet-name>
+        <url-pattern>/Upay</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>Delete card</servlet-name>
+        <servlet-class>com.payment.DeleteCardServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Delete card</servlet-name>
+        <url-pattern>/DeleteCardServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    
+    
+    
+    
+	
+	
+</web-app>

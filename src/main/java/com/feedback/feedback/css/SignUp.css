@@ -1,0 +1,87 @@
+
+body {
+    background: url('../photos/background1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: auto;
+}
+
+.container {
+    background-color:#9ed7e8;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width:450px;
+    margin-left:30%;
+    margin-top:5%;
+    
+}
+
+h1{
+font-size: 35px;
+text-align: center;
+margin-bottom: 20px;
+color:#11355b;
+}
+
+.form-group {
+margin-bottom: 15px;
+}
+
+label {
+display: block;
+color:#11355b;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="password"],
+input[type="email"],
+select{
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 10px;
+}
+
+select {
+height: 35px;
+
+}
+
+
+button {
+background-color: #11355b;
+color: #fff;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+width: 60%;
+margin-left: 18%;
+}
+
+button:hover {
+background-color:rgb(0, 109, 168);
+}
+
+.userDetails{
+    display:flex; 
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-between;
+}
+.selection{
+    font-size:17px;
+    color:#11355b;
+    text-align: center;
+}
+
+.register-link p{
+    color:#11355b;
+}
+.register-link p a{
+    color:black;
+}

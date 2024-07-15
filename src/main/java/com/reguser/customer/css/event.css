@@ -1,0 +1,70 @@
+body{
+    background-image: url(../photos/background1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: auto;
+}
+
+.container {
+    background-color:#9ed7e8;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width:400px;
+    height:auto;
+    margin-left:35%;
+    margin-top:2%;
+    opacity: 1;
+}
+
+img {
+    width:40px;    
+}
+.prof{
+    margin-left:1220px;
+}
+
+.booking button{
+    background-color: #11355b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 60%;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:21%;
+}
+.booking button:hover{
+    background-color:rgb(0, 109, 168);
+    
+}
+
+
+
+.title h1{
+    color:#11355b;
+    text-align:center;
+}
+
+label{
+    color:#11355b;
+    font-size:16px;
+}
+
+input[type="date"],
+input[type="text"],
+textarea,
+select
+{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size:14px;
+    width:270px
+}
+
+
